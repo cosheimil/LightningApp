@@ -1,0 +1,4 @@
+./.venv
+./.trunk
+./uv.lock
+./python-version

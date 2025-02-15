@@ -1,0 +1,12 @@
+[project]
+name = "lightningapp"
+version = "0.1.0"
+description = "Semantic Segmentation using UNet"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "lightning>=2.5.0.post0",
+    "litserve>=0.2.6",
+    "onnx>=1.17.0",
+    "onnxruntime>=1.20.1",
+]

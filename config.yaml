@@ -1,0 +1,5 @@
+api:
+  port: 8080
+
+model:
+  path: ./model/semantic_segmentation_unet.onnx

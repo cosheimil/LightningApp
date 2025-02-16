@@ -5,8 +5,14 @@ description = "Semantic Segmentation using UNet"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "lightning>=2.5.0.post0",
-    "litserve>=0.2.6",
-    "onnx>=1.17.0",
-    "onnxruntime>=1.20.1",
+  "fastapi>=0.115.8",
+  "jupyter>=1.1.1",
+  "lightning>=2.5.0.post0",
+  "litserve>=0.2.6",
+  "matplotlib>=3.10.0",
+  "omegaconf>=2.3.0",
+  "onnx>=1.17.0",
+  "onnxruntime>=1.20.1",
+  "pillow>=11.1.0",
+  "python-multipart>=0.0.20",
 ]
